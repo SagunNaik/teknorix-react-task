@@ -41,6 +41,10 @@ The application should show a list of all active job openings with search/filter
 4. Use the /api/v1/jobs/{id} API to load the details of the job opening.
 5. **[Bonus]** Implement social share on Facebook, LinkedIn & Twitter.
 
+## Other Deployments
+
+Open [https://cybermeals.vercel.app/home](CyberMeals) An Restraunt management App
+
 ## Available Scripts
 
 In the project directory, you can run:
