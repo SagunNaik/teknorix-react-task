@@ -2,6 +2,49 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Task Details / Demo
+
+### For Demo
+
+Open [https://teknorix-react-task.vercel.app/](Demo) to test app.
+
+### Task Details
+
+#### Instructions
+
+Complete the test, commit your code into a github repository and send us a link to the repository.
+Max time for the test is 4 hours.
+Use React JS with Hooks.
+Use LESS or SASS for styling - optional.
+Use a UI framework of your choice - optional.
+Requirements
+Teknorix wishes to build a ReactJS application to display their active job openings.
+
+The application should show a list of all active job openings with search/filter functionality. Job opening details should be shown on a unique url.
+
+#### Search
+
+1. Search - Search box to search for jobs openings.
+2. Department - Dropdown to show a list of all departments.
+3. Location - Dropdown to show a list of all locations.
+4. Function - Dropdown to show a list of all job functions.
+5. Show applied filters with a X button to remove the filter.
+6. Retain the applied filters on navigation to details page and back or refresh of page.
+7. Use the lookups API to load the above.
+8. Use server side filtering - applied filters must be passed to the api to load the list of jobs.
+
+#### Detail
+
+1. Implement details page as per the mockup above.
+2. Apply button - navigate to the application form - url of this will be provided in the API response.
+3. Other job openings - Show a list of job openings from the department of the current job opening.
+4. Use the /api/v1/jobs/{id} API to load the details of the job opening.
+5. **[Bonus]** Implement social share on Facebook, LinkedIn & Twitter.
+
+## Other Deployments
+
+Open [https://cybermeals.vercel.app/home](CyberMeals) An Restraunt management App
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -14,11 +57,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
@@ -28,16 +66,6 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 

@@ -1,0 +1,43 @@
+.search-filter-data-container {
+  .job-depart-heading {
+    .h3 {
+      font-size: 1.5rem;
+      font-weight: 800;
+    }
+  }
+
+  .job-depart-heading::after {
+    content: "";
+    display: block;
+    width: 5rem;
+
+    border-bottom: 0.3rem solid #6295e3;
+  }
+
+  .text-align-left {
+    text-align: left;
+  }
+
+  .mt-1 {
+    margin-top: 1rem;
+  }
+
+  .ml-2 {
+    margin-left: 2rem;
+  }
+
+  .job-title {
+    font-size: 1.2rem;
+    font-weight: 800;
+  }
+
+  .job-category-container {
+    display: "flex";
+    align-items: "center";
+    flex-wrap: "wrap";
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+}
