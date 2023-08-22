@@ -1,0 +1,75 @@
+.job-detail-container {
+  .font-1 {
+    font-size: 1rem;
+  }
+
+  .font-2 {
+    font-size: 2rem;
+  }
+
+  .font-bold {
+    font-weight: 800;
+  }
+
+  .font-light-bold {
+    font-weight: 600;
+  }
+
+  .text-left {
+    text-align: left;
+  }
+
+  .ml-2 {
+    margin-left: 2rem;
+  }
+  .ml-1 {
+    margin-left: 1rem;
+  }
+
+  .job-heading-container {
+    border-bottom: 0.1rem solid #6e7681da;
+  }
+
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+
+  .pb-2 {
+    padding-bottom: 2rem;
+  }
+
+  .related-jobs {
+    background-color: #cdebfd;
+  }
+
+  .justify-text {
+    text-align: justify;
+  }
+
+  .related-job-heading {
+    .h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+    }
+  }
+  .related-job-heading::after {
+    content: "";
+    display: block;
+    padding-top: 0.4rem;
+    width: 5rem;
+    border-bottom: 0.3rem solid #6295e3;
+  }
+
+  .related-job-title {
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+
+  .related-job-sub-heading {
+    font-size: 0.7rem;
+  }
+
+  .p-1 {
+    padding: 1rem !important;
+  }
+}

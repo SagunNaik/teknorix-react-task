@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Task Details / Demo
+
+### For Demo
+
+Open [https://teknorix-react-task.vercel.app/](Demo) to test app.
+
 ## Available Scripts
 
 In the project directory, you can run:
