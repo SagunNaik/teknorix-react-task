@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### For Demo
 
-Open [https://teknorix-react-task.vercel.app/](Demo) to test app.
+Open [Demo](https://teknorix-react-task.vercel.app/) to test app.
 
 ### Task Details
 
@@ -43,7 +43,7 @@ The application should show a list of all active job openings with search/filter
 
 ## Other Deployments
 
-Open [https://cybermeals.vercel.app/home](CyberMeals) An Restraunt management App
+Open [CyberMeals](https://cybermeals.vercel.app/) An Restraunt management App
 
 ## Available Scripts
 
